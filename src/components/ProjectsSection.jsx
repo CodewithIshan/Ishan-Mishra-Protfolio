@@ -26,7 +26,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "My personal portfolio built with React and Tailwind CSS to showcase projects, skills, and achievements.",
-    image: "dist/projects/portfolio.png",
+    image: "/public/projects/portfolio.png",
     tags: ["React", "TailwindCSS", "Vite"],
     demoUrl: "https://your-portfolio-demo-link.netlify.app", // add when deployed
     githubUrl: "https://github.com/CodewithIshan/beautiful-react-tailwind-portfolio",
@@ -115,5 +115,3 @@ export const ProjectsSection = () => {
     </section>
   );
 };
-
-
